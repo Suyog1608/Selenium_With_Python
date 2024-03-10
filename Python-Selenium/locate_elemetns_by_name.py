@@ -4,8 +4,8 @@ import time
 
 driver = webdriver.Chrome()
 driver.get("file:///D:/Selenium_With_Python/Python-Selenium/html_code.html")
-login_form = driver.find_element(by=By.NAME, value='username')
+username = driver.find_element(by=By.NAME, value='username')
 print("My element name is:")
-print(login_form)
+print(username)
 time.sleep(8)
 driver.close()
