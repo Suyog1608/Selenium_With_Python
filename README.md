@@ -90,6 +90,16 @@
 <ul>
   <li>Locating elements by ID</li>
   <li>Locating elements by Name</li>
-  <li>Locating elements by XPath</li>
+  <li>Locating elements by XPath
+  <ul>
+    <li>XPath stands for XML path language</li>
+    <li>XPath uses path expressions to identify and navigate nodes in an XML Document</li>
+    <li>XPath  is used to locate elements when a specific ID or name is not available for the node.<br>
+      It can be used to select one or more nodes in the document - using absolute and relative paths.</li>
+    <li>In case of Absolute Path, the path of the name is specified right from the root node.</li>
+    <li>In case of Relative Path, the path of the node is specified relative to another node that has relative attribute.</li>
+    <li><b>Note:</b> It is generally advised to not use and absolute XPath as even the slightest change in application structure could cause it to fail and become invalid.</li>
+  </ul>
+  </li>
   <li>Locating elements by class</li>
 </ul>
