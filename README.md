@@ -5,7 +5,7 @@
 <h5>Why do we need to automate tests</h5>
 <ol>
   <li>Decreased cost and time of testing</li>
-  <li>Enable continuous delivery through round-the-cloack testing</li>
+  <li>Enable continuous delivery through round-the-clock testing</li>
   <li>Ensure regression testing</li>
   <li>Increased test coverage</li>
   <li>Cross-device testing made easy</li>
@@ -36,5 +36,60 @@
   <li> Used for web UI automation -- the automatic execution of the actions performed in a web browser window</li>
   <li> Used for robust, browser-based regression testing</li>
   <li> Used to scale tests to multiple browsers and environment using Selenium</li>
+  <li> Selenium webdriver supports various browsers including Firefox, Chrome, Internet Explorer, Edge, and Safari</li>
+  <li> Ensure Cross-crowser compatibility</li>
 </p>
 
+<p> <b>Selenium-Firefox Driver</b>
+  <li>Firefox binary needs to be installed seperately</li>
+  <li>Firefox Driver should be placed in the systems path such that webDriver can locate it automatically</li>
+  <li>An Instance of firefox Driver is Created
+    <ul> driver = webdriver.Firefox() </ul>
+  </li>
+  <li> For more info visit this website 
+    <ul> https://www.selenium.dev/documentation/webdriver/browsers/firefox/ </ul>
+  </li>
+</p>
+
+<p> <b>Selenium-Chrome Driver</b>
+  <li>Chrome binary needs to installed seperately</li>
+  <li>Chrome Driver should be placed in the systems path such that webDriver can locate it automatically</li>
+  <li>An Instance of chrome Driver is Created
+    <ul> driver = webdriver.Chrome() </ul>
+  </li>
+  <li> For more info visit this website 
+    <ul> https://www.selenium.dev/documentation/webdriver/browsers/chrome/ </ul>
+  </li>
+</p>
+
+<h4> <b>Note : Before getting started with writing test cases all the installed webdrivers should be placed in Systems path so for getting locate automatically by webdriver</b></h4>
+
+
+<h4>HTML DOM STRUCTURTE</h4>
+<ol>
+  <li>The html DOM defines the logical structure of documents and the way a document is accessed and manipulated.</li>
+  <li>The DOM presents an HTML Document as a tree structure (a node tree), with elements, attributes, and text</li>
+  <li>With the DOM, programmers can create and build documents, navigate their structure, and add, modify, or delete elements and content</li>
+</ol>
+
+<p> Let's start with locating the elements by ID
+<ul>
+  <li>The HTML id attribute specifies a unique id for a HTML element</li>
+  <li>Rules for the id attribute
+  <ul>
+    <li> At lease one character </li>
+    <li> No spaces characters </li>
+    <li> Case Sensitive </li>
+    <li> Unique in the document </li>
+  </ul>
+  </li>
+</ul>
+</p>
+
+<b>Let's start with practical now with locating the elements with the different ways</b>
+<ul>
+  <li>Locating elements by ID</li>
+  <li>Locating elements by Name</li>
+  <li>Locating elements by XPath</li>
+  <li>Locating elements by class</li>
+</ul>
