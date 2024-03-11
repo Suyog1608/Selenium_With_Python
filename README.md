@@ -101,5 +101,11 @@
     <li><b>Note:</b> It is generally advised to not use and absolute XPath as even the slightest change in application structure could cause it to fail and become invalid.</li>
   </ul>
   </li>
-  <li>Locating elements by class</li>
+  <li>Locating elements by class
+  <ul>
+    <li>The HTML class attribute specifies one or more class names for an HTML element</li>
+    <li>These class names are used to point a class in a stylesheet</li>
+    <li>It is Used to locate elements when the class attribute of one or more elements is known</li> 
+  </ul>
+  </li>
 </ul>
