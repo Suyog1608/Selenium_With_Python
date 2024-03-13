@@ -109,3 +109,25 @@
   </ul>
   </li>
 </ul>
+
+# Let's get ahead with some new methods for testing
+<p><b>PAGE INTERACION</b></p>
+<ul>
+  <li>Just landing on a page and locating elements is not enough</li>
+  <li>Interact with the elements on the page once they are selected</li>
+  <li>Interact with a page as actions performed by a user.</li>
+</ul>
+
+<p><b>Filling Forms</b></p>
+<ul>
+  <li>Dealing with other form of elements</li>
+  <li>"Select" class that helps us tackle select elements - find a select element and then select values by index, visible text, and value</li>
+  <li>"Submit" method on every element in the form</li>
+</ul>
+
+<p><b>Drag and Drop</b></p>
+<ul>
+  <li>Users drag and drop elements as part of a UI interaction</li>
+  <li>Drag and drop source element to a target element</li>
+  <li>Drag and drop a source element by a specific x-offset and y-offset</li>
+</ul>
