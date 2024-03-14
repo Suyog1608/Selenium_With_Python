@@ -116,6 +116,7 @@
   <li>Just landing on a page and locating elements is not enough</li>
   <li>Interact with the elements on the page once they are selected</li>
   <li>Interact with a page as actions performed by a user.</li>
+  <li>In this we will learn about how to put values in text inputs and text areas (like search boxes, etc.) and can test the results by importing the <b>'Keys' Module</b></li>
 </ul>
 
 <p><b>Filling Forms</b></p>
@@ -123,6 +124,7 @@
   <li>Dealing with other form of elements</li>
   <li>"Select" class that helps us tackle select elements - find a select element and then select values by index, visible text, and value</li>
   <li>"Submit" method on every element in the form</li>
+  <li>In this we will use the <b>SELECT class</b> which helps you deal with select elements in the form & it also comes with a submit method that works on every element in the form</li>
 </ul>
 
 <p><b>Drag and Drop</b></p>
@@ -130,4 +132,5 @@
   <li>Users drag and drop elements as part of a UI interaction</li>
   <li>Drag and drop source element to a target element</li>
   <li>Drag and drop a source element by a specific x-offset and y-offset</li>
+  <li>This can be implement by using <b>ActionChains Class</b> which will help in perfforming drag n drop and also setting in the values of <b>xoffset and yoffset</b> which can be perform by <b>perform() function</b></li>
 </ul>
