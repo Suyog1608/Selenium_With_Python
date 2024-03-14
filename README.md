@@ -134,3 +134,44 @@
   <li>Drag and drop a source element by a specific x-offset and y-offset</li>
   <li>This can be implement by using <b>ActionChains Class</b> which will help in perfforming drag n drop and also setting in the values of <b>xoffset and yoffset</b> which can be perform by <b>perform() function</b></li>
 </ul>
+
+<h2>Let's go ahead with getting understand of what are Waits and why  do we need them</h2>
+<ul><b>What are Waits?</b>
+  <li>Waits are very important when it comes to placing your automation script.</li>
+  <li> Because most websites used Asynchronous Techniques such as AJAX.
+    <ul>
+    <li>When a webpage is loaded by the browser the elements may be loaded at different time intervals due to AJAX calls.</li>
+    <li>Some elements may take much longer to load as compared to others. This could be something like a image, video or any other element that requires more time to load.</li>
+    <li>Which posses a problem while locating elements on a page</li>
+    <li>If an element is not found by a script at that time, an exception is raised and your script will run into a issue and stop
+    </ul>
+  </li>
+  <li>Waiting adds a time interval between actions performed by the Web driver <br> i.e it adds a time wait between locating elements and performing operations on them.</li>
+</ul>
+
+<b>Selenium Webdriver provides two types of wait i.e Explicit Waits and Implicit Waits</b>
+<ul>
+<li>An explicit waits stops execution until a certain condition is satisfied., and</li>
+<li>An implicit waits Polls the DOM for a given amount of time while trying to locate an element.</li>  
+</ul>
+
+<h4>Explicit Wait</h4>
+<ul>
+  <li>Explicit wait is one where you want your code to pause until a certain condition has been satisfied.</li>
+  <li>Like if you are testing an image and you want to wait for the presence of the image to be loaded, then you add explicit wait,<br>
+  otherwise the image will not load at right time in your script and element not found exception will be thrown.</li>
+  <li>Selenium webdriver uses a combination of the classes WebDriverWait and ExpectedConditions to add explicit waits.</li>
+  <li>These convinient methods could test conditions ranging from the title list to visibility of an element being located to an alert being present, to text being present, and much more.</li>
+</ul>
+
+<h4>Implicit Wait</h4>
+<ul>
+  <li>An implicit wait is where you want your code to pause for a certain amount of time beofre every action or every element to be loaded.</li>
+  <li>Pauses for a certain amount of time for every action.</li>
+  <li>Waiting time is specified in seconds.</li>
+  <br>
+  Use Case
+  <li>The typical use case for implicit waits is when you have a slow internet connection and you know that every element im the site will load much slowly than expected</li>
+  <li>So we can add implicit wait before every call, so once the element is loaded, If the element is loaded in the specified time then the script moves on <br>
+  If the element is not loaded within the specified amount of time, then an exception is thrown.</li>
+</ul>
